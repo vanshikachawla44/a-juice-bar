@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Juicy Delights</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation (Same as other pages) -->
+    <header id="header">
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Juicy Delights</a></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="feedback.html">feedback</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- feedback -->
+    <section class="feedback">
+      <center>  <h1>feedback</h1> </center><br>
+        <p>  We would love to hear from you! Please fill out the form below </p>
+        <div class="feedback">
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+<br>
+               <br> <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+<br> <br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <p>Your go-to destination for fresh and healthy juices and shakes.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="feedback.html">Contact</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-bottom-text">© 2024 Juicy Delights. All rights reserved.</p>
+    </footer>
+</body>
+</html>
